@@ -44,7 +44,7 @@ Bit operation method 0:00:00.96470
 Метод push(int el)
 * Добавление элемента.
 * Сложность O(1)
-```с++
+```c++
 void push(int el) {
 		if (isFull()) {
 			throw std::runtime_error("Buffer is full");
@@ -59,7 +59,7 @@ void push(int el) {
 Метод pop()
 * Удаляет элемент из начала и возвращает его.
 * Сложность O(1)
-```с++
+```c++
 int pop() {
 		if (isEmpty()) {
 			throw std::runtime_error("Buffer is empty");
